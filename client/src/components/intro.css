@@ -1,0 +1,30 @@
+/* root background color black */
+
+:root{
+    background-color: rgb(3, 0, 61);
+}
+
+.Intro {
+  background-image: url('flag.jpg');
+  height: 60vh;
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.intro-text{
+    margin-top: 10vh;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #fff;
+}
