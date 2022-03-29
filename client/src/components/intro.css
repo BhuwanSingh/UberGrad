@@ -26,7 +26,8 @@
 }
 
 .intro-text {
-  margin-top: 10vh;
+  /* margin-top: 10vh; */
+  padding: 2%;
   font-size: 3rem;
   font-weight: 350;
   color: #fff;
@@ -39,7 +40,7 @@
 
 .text {
   font-size: 1.2rem;
-  padding: 5%;
+  padding: 2%;
   font-weight: 600;
   text-align: left;
   color: #000;
@@ -101,40 +102,40 @@
 }
 
 /* make a CSS grid of 2 columns in 1:5 ratio */
-.req-list{
-    display: grid;
-    list-style-type: none;
-    grid-template-columns: 1fr 4fr;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-    grid-auto-rows: minmax(10px, auto);
-    grid-auto-flow: dense;
-    grid-auto-columns: minmax(10px, auto);
+.req-list {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 4fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  grid-auto-rows: minmax(10px, auto);
+  grid-auto-flow: dense;
+  grid-auto-columns: minmax(10px, auto);
 }
 
-.req{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2%;
-    height: 77px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    background-color: rgb(216, 216, 216);
-    border-radius: 10px;
+.req {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  height: 77px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: rgb(216, 216, 216);
+  border-radius: 10px;
 }
 
-.des{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    /* align-items: center; */
-    height: 50px;
-    padding: 2%;
-    font-size: 1.2rem;
-    font-weight: 400;
-    background-color: rgb(216, 216, 216);
-    border-radius: 10px;
+.des {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  /* align-items: center; */
+  height: 50px;
+  padding: 2%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  background-color: rgb(216, 216, 216);
+  border-radius: 10px;
 }
