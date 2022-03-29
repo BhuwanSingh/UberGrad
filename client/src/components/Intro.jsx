@@ -36,6 +36,47 @@ const Intro = () => {
 					<li className='course'>Software Engineering</li>
 				</ul>
 			</div>
+			<div className='requirements'>
+				<div className='requirements-top'>Requirements</div>
+				<ul className='req-list'>
+					<li>
+						<div className='req'>Degree</div>
+					</li>
+					<li>
+						<div className='des'>a four year bachelor's degree in related field from an accredited intitution with a minimum 65%</div>
+					</li>
+					<li>
+						<div className='req'>ILETS</div>
+					</li>
+					<li>
+						<div className='des'>A minimum of 6.5</div>
+					</li>
+					<li>
+						<div className='req'>TOEFL iBT</div>
+					</li>
+					<li>
+						<div className='des'>Acceptable Overall Score Range: 79-100</div>
+					</li>
+					<li>
+						<div className='req'>General GRE</div>
+					</li>
+					<li>
+						<div className='des'>A minimum of 300 is required to get into a reasonably good university. Top universities like Stanford require close to 330 range </div>
+					</li>
+					<li>
+						<div className='req'>Statement of Purpose (SOP)</div>
+					</li>
+					<li>
+						<div className='des'>2 SOPs </div>
+					</li>
+					<li>
+						<div className='req'>Letter of Recommendation (LOR)</div>
+					</li>
+					<li>
+						<div className='des'>Three letters of recommendation (including at least two academic references) </div>
+					</li>
+				</ul>
+			</div>
 		</div>
 	)
 }

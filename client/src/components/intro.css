@@ -1,6 +1,5 @@
 /* root background color black */
 
-
 .Intro {
   background-image: url('flag.jpg');
   height: 50vh;
@@ -13,78 +12,129 @@
   align-items: center;
 }
 
-.head{
-    font-size: 4rem;
-    font-weight: 500;
-    color: #fff;
+.head {
+  font-size: 4rem;
+  font-weight: 500;
+  color: #fff;
 }
 
 /* draw a yellow underline */
-.underline{
-    /* background-color: rgb(255, 138, 28); */
-    text-decoration: underline rgb(255, 138, 28);
-    /* position: absolute ; */
+.underline {
+  /* background-color: rgb(255, 138, 28); */
+  text-decoration: underline rgb(255, 138, 28);
+  /* position: absolute ; */
 }
 
-.intro-text{
-    margin-top: 10vh;
-    font-size: 3rem;
-    font-weight: 350;
-    color: #fff;
+.intro-text {
+  margin-top: 10vh;
+  font-size: 3rem;
+  font-weight: 350;
+  color: #fff;
 }
 
-.top{
-    text-decoration: overline rgb(255, 138, 28);
-    text-align: center;
+.top {
+  text-decoration: overline rgb(255, 138, 28);
+  text-align: center;
 }
 
-.text{
-    font-size: 1.2rem;
-    padding: 5%;
-    font-weight: 600;
-    text-align: left;
-    color: #000;
+.text {
+  font-size: 1.2rem;
+  padding: 5%;
+  font-weight: 600;
+  text-align: left;
+  color: #000;
 }
 
-.special{
-    padding: 2%;
-    background-color: rgb(216, 216, 216);
+.special {
+  padding: 2%;
+  background-color: rgb(216, 216, 216);
 }
 
-.special-top{
-    text-decoration: overline rgb(255, 138, 28);
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
+.special-top {
+  text-decoration: overline rgb(255, 138, 28);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-.special-content{
-    font-size: 1rem;
-    padding: 2%;
+.special-content {
+  font-size: 1rem;
+  padding: 2%;
 }
 
 /* make css grid for courses */
 
-.courses{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-row-gap: 2rem;
-    grid-column-gap: 8rem;
-    grid-auto-rows: minmax(100px, auto);
-    grid-auto-flow: dense;
-    grid-auto-columns: minmax(100px, auto);
+.courses {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 8rem;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-flow: dense;
+  grid-auto-columns: minmax(100px, auto);
 }
 
 /* list item */
 
-.course{
+.course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.requirements {
+  padding: 4%;
+}
+
+.requirements-top {
+  text-decoration: overline rgb(255, 138, 28);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 33px;
+}
+
+/* make a CSS grid of 2 columns in 1:5 ratio */
+.req-list{
+    display: grid;
+    list-style-type: none;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-auto-rows: minmax(10px, auto);
+    grid-auto-flow: dense;
+    grid-auto-columns: minmax(10px, auto);
+}
+
+.req{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2%;
+    height: 77px;
     font-size: 1.2rem;
     font-weight: 700;
-    background-color: #fff;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.des{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    /* align-items: center; */
+    height: 50px;
+    padding: 2%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    background-color: rgb(216, 216, 216);
     border-radius: 10px;
 }
