@@ -18,8 +18,10 @@ const Header = () => {
 					<li className='list-item' >Events<img src={Arrow} alt='arrow' className='arrow' /></li>
 				</ul>
 			</div>
-			<div className='button'>Store</div>
-			<div className='button'>TALK TO COUNCELLOR</div>
+			<ul className='list'>
+			<li className='button'>Store</li>
+			<li className='button'>TALK TO COUNCELLOR</li>
+			</ul>
 			<div>
 			<ul className='list'>
 				<li className='list-item' >Login</li>

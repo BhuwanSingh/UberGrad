@@ -1,13 +1,10 @@
 /* root background color black */
 
-:root{
-    background-color: rgb(3, 0, 61);
-}
 
 .Intro {
   background-image: url('flag.jpg');
-  height: 60vh;
-  opacity: 0.6;
+  height: 50vh;
+  /* opacity: 0.6; */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -17,14 +14,77 @@
 }
 
 .head{
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 500;
     color: #fff;
 }
 
+/* draw a yellow underline */
+.underline{
+    /* background-color: rgb(255, 138, 28); */
+    text-decoration: underline rgb(255, 138, 28);
+    /* position: absolute ; */
+}
+
 .intro-text{
     margin-top: 10vh;
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 3rem;
+    font-weight: 350;
     color: #fff;
+}
+
+.top{
+    text-decoration: overline rgb(255, 138, 28);
+    text-align: center;
+}
+
+.text{
+    font-size: 1.2rem;
+    padding: 5%;
+    font-weight: 600;
+    text-align: left;
+    color: #000;
+}
+
+.special{
+    padding: 2%;
+    background-color: rgb(216, 216, 216);
+}
+
+.special-top{
+    text-decoration: overline rgb(255, 138, 28);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.special-content{
+    font-size: 1rem;
+    padding: 2%;
+}
+
+/* make css grid for courses */
+
+.courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 8rem;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-flow: dense;
+    grid-auto-columns: minmax(100px, auto);
+}
+
+/* list item */
+
+.course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 10px;
 }
